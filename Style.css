@@ -1,0 +1,67 @@
+#Nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+#Nav_img{
+    width: 290px;
+    height: 74px;
+    padding-right: 200px;
+    margin-top: 20px;
+}
+.Nav{
+
+    display: inline;
+    float: left;
+    background-color: transparent;
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 90px;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+li a:hover {
+    background-color: #87b6d7;
+}
+
+
+
+nav{
+    position: fixed;
+    top: 9px;
+    width: 100%;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body {
+
+    background-image: url('Images/tyga3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+    
+aside {
+    text-align: center;
+    color: #fff;
+    width: 30%;
+    margin-top: 390px;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic;
+    background-color: rgba(48, 72, 131, 0.91);
+}

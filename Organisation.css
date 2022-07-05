@@ -1,0 +1,67 @@
+#Nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+#Nav_img{
+    width: 290px;
+    height: 74px;
+    padding-right: 200px;
+    margin-top: 20px;
+}
+.Nav{
+
+    display: inline;
+    float: left;
+    background-color: transparent;
+
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 90px;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+li a:hover {
+    background-color: #87b6d7;
+}
+
+
+
+nav{
+    position: fixed;
+    top: 9px;
+    width: 100%;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body {
+
+    background-image: url('Images/festival.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+aside {
+    color: #fff;
+    width: 90%;
+    margin-top: 150px;
+    padding-left: 15px;
+    margin-left: 70px;
+    float: left;
+    font-style: italic;
+    font-size: 23px;
+    background-color: rgba(120, 50, 5, 0.61);
+}
